@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Emily Laura Hayes</title>
+	<link href='https://fonts.googleapis.com/css?family=Laila' rel='stylesheet'>
+	<style type="text/css">
+  body{
+      background-color: #fcfcfc;
+font-family: 'Laila';font-size: 17px;
+    }
+
+body {
+ margin: 0px;
+}
+
+table{width: 100%}
+#t01{font-size: 13px;}
+td{text-align: center;}
+/*table, th, td {
+  border: 1px solid black;
+}*/
+
+/* Style the header */
+.header {
+  background-color: #b78aff;
+  padding: 20px;
+  text-align: center;
+}
+
+
+/*.column {
+  width: 45%;
+  text-align: center;
+  padding-top: 100px;
+  padding-left: 200px;
+}*/
+
+.row {
+  padding: 20px;
+  text-align: center;
+}
+
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#myImg2 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#myImg3 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#myImg4 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+#myImg2:hover {opacity: 0.7;}
+#myImg3:hover {opacity: 0.7;}
+#myImg4:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 30%;
+  max-width: 700px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+</style>
+</head>
+
+<body>
+
+
+<div class="header">
+  <h1>Emily Laura Hayes</h1>
+</div>
+
+
+<div class="row">
+	<div class="column" >
+
+		<table style="width: 100%">
+			<tr>
+				<td></td>
+				<td style="width: 45%">Emily Laura Hayes is geboren op 8 januari 2002 te Teuven. <a href="Laura.html">Haar moeder</a> heeft de bevalling niet overleefd. <a href="Viktor full.html">Viktor</a> heeft na haar overlijden Emily haar tweede naam gegeven.</td>
+				<td></td>
+			</tr>
+			
+		</table>	
+	</div>
+		<div class="column">
+		<table>
+			<tr>
+				<td style="width: 28%;"></td>
+				<td><img id="myImg" src="Emily eerste foto.jpg" width="100" height="150"></td>
+				<td style="width: 23%;"><img id="myImg2" src="Babette.jpg" width="150" height="100"></td>
+				<td style="width: 28%;"></td>
+
+			</tr>
+			<tr>
+				<td></td>
+				<td style="font-size: 13px;">Januari '02</td>
+				<td style="font-size: 13px;">Juni '19</td>
+			</tr>
+		</table>
+	</div>
+	<br>
+	<div class="column">
+		<table>
+			<tr>
+				<td></td>
+				<td style="width: 45%">Ze <a href="Teuven.html">woont</a> samen met haar vader in een klein appartement in Teuven.
+				</td>
+				<td></td>		
+			</tr>
+		</table>
+		<br>
+		<br>
+		<table>
+			<tr>
+				<td></td>
+				<td style="width: 45%"> Voor haar tiende verjaardag is ze met haar vader <a href="Katten.html">twee katten</a> gaan kopen, iets wat haar moeder gedaan zou willen hebben.</td>
+				<td></td>
+			</tr>
+		
+		</table>
+		<br>
+		<br>
+		<table>
+		<tr>
+			<td></td>
+			<td style="width: 45%;">Al van jongs af aan is Emily bezig met dans. Ze danst voornamelijk contemporary, maar neemt geregeld ook deel aan de lessen klassiek ballet. Ze is deel van een wedstrijdgroep waarmee ze al een aardig aantal trofeeën heeft gewonnen.</td>
+			<td></td>
+		</tr>
+		</table>
+		
+		
+	</div>
+	
+
+	
+	<div class="column">
+		<br>
+		<table>
+			<tr>
+				<td><video width="320" height="180" controls>
+					<source src="Moving Backwards.mov" type="video/mp4">
+					</video>
+				</td>
+			</tr>
+			<tr>
+				<td style="font-size: 13px;">Emily's solo 2018</td>
+			</tr>
+		</table>
+
+	</div>
+
+</div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+<script>
+
+var modal = document.getElementById("myModal");
+
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+var span = document.getElementsByClassName("close")[0];
+
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+<script>
+
+var modal = document.getElementById("myModal");
+
+var img = document.getElementById("myImg2");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+var span = document.getElementsByClassName("close")[0];
+
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

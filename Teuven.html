@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Teuven</title>
+	<link href='https://fonts.googleapis.com/css?family=Laila' rel='stylesheet'>
+		<style type="text/css">
+  body{
+      background-color: #fcfcfc;
+      font-family: 'Laila';font-size: 17px;
+    }
+
+body {
+ margin: 0px;
+}
+
+/* Style the header */
+.header {
+  background-color: #f5f0bf;
+  padding: 20px;
+  text-align: center;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 15px;
+}
+
+
+
+</style>
+</head>
+
+<body>
+
+
+<div class="header">
+  <h1>Teuven</h1>
+</div>
+
+
+<div class="row">
+<div class="column" style="padding-top: 90px;">
+	<p>
+		In het voorjaar van 2001 verhuisden <a href="Viktor full.html">Viktor Hayes</a> en <a href="Laura.html">Laura Morgan</a> naar hun eigen appartement in Teuven. 
+		<br> Ze hadden Teuven gekozen omdat het <a href="Natuur.html">omringd is met natuur</a> en het een vredevolle omgeving is om hun toekomstige kinderen op te voeden.
+		<br>
+		<br>Family Hayes woont hier nog steeds.
+	</p>
+
+</div>
+</div>
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 5</div>
+  <img src="Keukenoverzicht.jpg" width="450" height="300">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 5</div>
+  <img src="Badkamer.jpg" width="450" height="300">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 5</div>
+  <img src="Kasten.jpg" width="300" height="450">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 5</div>
+  <img src="Schouw-deuren.jpg" width="300" height="450">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 5</div>
+  <img src="Tuin overzicht.jpg" width="450" height="300">
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3000); // Change image every 3 seconds
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
